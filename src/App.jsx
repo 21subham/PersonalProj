@@ -22,7 +22,7 @@ function App() {
       <div className="h-screen flex justify-center items-center">
         <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700 text-center">
           <h1 className="text-white text-center my-3 text-2xl">
-            Are you gay ?
+            Do you love me ?
           </h1>
 
           {/* for buttons */}
