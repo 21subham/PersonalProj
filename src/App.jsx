@@ -6,7 +6,7 @@ function App() {
   const [box, setBox] = useState(false);
 
   const handleYesClick = () => {
-    window.alert("Congratulations!! You are Gay");
+    window.alert("Congratulations!! You are Gay XD");
   };
 
   // Swap the buttons when "No" is clicked
