@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import { BrowserRouter } from "react-router-dom"; // Import BrowserRouter
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [box, setBox] = useState(false);
@@ -9,7 +9,7 @@ function App() {
     window.alert("Congratulations!! You are Gay XD");
   };
 
-  // Swap the buttons when "No" is clicked
+  // Swap buttons
   const changer = (isNoClicked) => {
     if (isNoClicked) {
       setBox((prevState) => !prevState);
@@ -18,7 +18,6 @@ function App() {
 
   return (
     <BrowserRouter basename="/PersonalProj/">
-      {/* Wrap the app with BrowserRouter */}
       <div className="h-screen flex justify-center items-center">
         <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700 text-center">
           <h1 className="text-white text-center my-3 text-2xl">
